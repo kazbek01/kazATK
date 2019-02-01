@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>KazATK</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <div class="header-top">
+            <ul class="language-list">
+                <li><a href="#">Ққ</a></li>
+                <li><a href="#">РУ</a></li>
+                <li><a href="#">En</a></li>
+            </ul>
+            <ul class="header-top-menu hidden-xs">
+                <li><a href="#">Администрация</a></li>
+                <li><a href="#">Трудоустройство</a></li>
+                <li><a href="#">Социальные партнеры</a></li>
+                <li><a href="#">Контакты </a></li>
+            </ul>
+            <div class="header-btnbox">
+                <button class="btn-plain call-search hidden-xs"><i class="fas fa-search fa-search-custom"></i></button>
+                <button class="btn-white call-callback">Обратная связь</button>
+            </div>
+
+        </div>
+        <div class="header-bottom">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo/kazatwhite.png" alt="">
+                    <img src="img/logo/kaztemirjol.png" alt="" class="logo-temirjol">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav m-menu">
+                    <li><a href="index.html">О колледже</a></li>
+                    <li><a href="news.html">Поступления </a></li>
+                    <li><a href="help.html">Специальности</a></li>
+                    <li><a href="help.html">Кружки & Секции</a></li>
+                    <li><a href="help.html">Student’s Life</a></li>
+                    <li><a href="tel:+7 (727) 233-06-19" class="phone-link visible-xs">+7 (727) 233-06-19</a></li>
+                </ul>
+            </div>
+            <a href="tel:+7 (727) 233-06-19" class="phone-link hidden-xs">+7 (727) 233-06-19</a>
+        </div>
+    </div>
+</header>
+<section class="header-box">
+    <div class="row">
+        <div class="container-fluid">
+            <div class="header-box-img">
+                <img src="img/main/bg_header.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header-box-caption">
+            <h1>Контакты</h1>
+        </div>
+    </div>
+</section>
+<section class="contact-box">
+    <div class="container">
+        <p>Адрес: <span> г. Алматы, 050016, проспект Райымбека д. 165</span></p>
+        <p>e-mail: <span> tkKazatk@mail.ru</span></p>
+        <p>Телефоны:</p>
+        <ul class="contact-number">
+            <li>+7 (727) 233-06-19</li>
+            <li>+7 (727) 233-06-30</li>
+            <li>+7 (727) 233-06-22</li>
+            <li>+7 (727) 233-08-85</li>
+        </ul>
+
+        <p> Факс:<span>  +7 (727) 233- 07-95</span></p>
+
+       <div class="map-box">
+           <div id="map" style="width: 100%; height: 100%"></div>
+       </div>
+    </div>
+</section>
+<div class="overlay"></div>
+<div class="callback">
+    <h3>Введите ваш номер</h3>
+    <form action="#" class="callback-form" method="post">
+        <input type="text" placeholder="Ваше имя">
+        <input type="text" placeholder="Ваше номер">
+        <button class="btn-blue" type="submit">Отправить</button>
+        <button class="btn-cancel close-callback">Отмена</button>
+    </form>
+</div>
+<footer class="bg-dark">
+    <div class="container">
+        <div class="footer-top">
+            <a href="index.html" class="footer-logo">
+                <img src="img/logo/logo-big.png" alt="">
+            </a>
+            <div class="footer-top-list">
+                <ul class="m-menu">
+                    <li><a href="index.html">О колледже</a></li>
+                    <li><a href="news.html">Поступления </a></li>
+                    <li><a href="help.html">Специальности</a></li>
+                    <li><a href="help.html">Кружки & Секции</a></li>
+                    <li><a href="help.html">Student’s Life</a></li>
+                </ul>
+                <ul class="header-top-menu">
+                    <li><a href="#">Администрация</a></li>
+                    <li><a href="#">Трудоустройство</a></li>
+                    <li><a href="#">Социальные партнеры</a></li>
+                    <li><a href="#">Контакты </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>г. Алматы, 050016, проспект <br>Райымбека д. 165</span>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-phone">
+                        <i class="fas fa-phone"></i>
+                        <div class="footer-phone-links">
+                            <a href="tel:+7 (727) 233-06-19">+7 (727) 233-06-19</a><br>
+                            <a href="tel:+7 (727) 233-06-30 ">+7 (727) 233-06-30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <i class="far fa-envelope"></i>
+                    <span>tkKazatk@mail.ru</span>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <ul class="footer-social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Алматинский Транспортный колледжКазАТК имени М. Тынышпаева, 2019</p>
+            <p class="bg-box">Сделано в  <a href="https://bgpro.kz/" target="_blank">bg.pro,</a> 2018</p>
+        </div>
+    </div>
+</footer>
+<script src="js/libs.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+
+    function init() {
+        // Создание карты.
+        var myMap = new ymaps.Map("map", {
+            // Координаты центра карты.
+            // Порядок по умолчанию: «широта, долгота».
+            // Чтобы не определять координаты центра карты вручную,
+            // воспользуйтесь инструментом Определение координат.
+            center: [43.270112, 76.935233],
+            controls: ['zoomControl','geolocationControl'],
+            // Уровень масштабирования. Допустимые значения:
+            // от 0 (весь мир) до 19.
+            zoom: 15
+        });
+        // Создаем геообъект с типом геометрии "Точка".
+        myGeoObject = new ymaps.GeoObject({
+            // Описание геометрии.
+            geometry: {
+                type: "Point",
+                coordinates: [55.8, 37.8]
+            },
+            // Свойства.
+            properties: {
+                // Контент метки.
+                iconContent: 'Я тащусь',
+                hintContent: 'Ну давай уже тащи'
+            }
+        }, {
+            // Опции.
+            // Иконка метки будет растягиваться под размер ее содержимого.
+            preset: 'islands#blackStretchyIcon',
+            // Метку можно перемещать.
+            draggable: true
+        }),
+            myPieChart = new ymaps.Placemark([
+                55.847, 37.6
+            ], {
+                // Данные для построения диаграммы.
+                data: [
+                    {weight: 8, color: '#0E4779'},
+                    {weight: 6, color: '#1E98FF'},
+                    {weight: 4, color: '#82CDFF'}
+                ],
+                iconCaption: "Диаграмма"
+            }, {
+                // Зададим произвольный макет метки.
+                iconLayout: 'default#pieChart',
+                // Радиус диаграммы в пикселях.
+                iconPieChartRadius: 30,
+                // Радиус центральной части макета.
+                iconPieChartCoreRadius: 10,
+                // Стиль заливки центральной части.
+                iconPieChartCoreFillStyle: '#ffffff',
+                // Cтиль линий-разделителей секторов и внешней обводки диаграммы.
+                iconPieChartStrokeStyle: '#ffffff',
+                // Ширина линий-разделителей секторов и внешней обводки диаграммы.
+                iconPieChartStrokeWidth: 3,
+                // Максимальная ширина подписи метки.
+                iconPieChartCaptionMaxWidth: 200
+            });
+        myMap.geoObjects
+            .add(myGeoObject)
+            .add(myPieChart)
+            .add(new ymaps.Placemark([43.270112, 76.935233], {
+                balloonContent: 'цвет <strong>носика Гены</strong>',
+                iconCaption: 'проспект Райымбека д. 165'
+            }, {
+                preset: 'islands#greenDotIconWithCaption'
+            }));
+
+
+    }
+</script>
+<script src="js/common.js"></script>
+</body>
+</html>
